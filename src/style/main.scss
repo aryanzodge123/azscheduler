@@ -16,7 +16,7 @@
 }
 
 .library {
-    flex-grow: 2;
+    flex-grow: 1;
     width: 62%;
     max-width: 62%;
     height: 100vh;
@@ -31,7 +31,7 @@
 
 .schedule {
     flex-grow: 1;
-    background: linear-gradient(118.95deg, #6F48CE 0%, #32CBE8 100%);
+    background: linear-gradient(118.95deg, rgb(206, 159, 72) 0%, rgb(50, 123, 232) 100%);
     width: 38%;
     height: 100vh;
     text-align: center;
@@ -52,8 +52,8 @@
 
 .library__header {
     border: none;
-    border-left: 1px solid #487bce;
-    color: #487bce;
+    border-left: 1px solid #4856ce;
+    color: #4856ce;
     padding: 0 25px;
     font-family: Alegreya, serif;
     font-size: 34px;
@@ -80,7 +80,7 @@ ul li {
 
 
 .course__title {
-    color: #4D4D4D;
+    color: rgb(110, 110, 110);
     font-family: Lato;
     font-size: 16px;
 }
@@ -94,7 +94,7 @@ ul li {
 }
 
 .course__description-title {
-    color: #487bce;
+    color: #4856ce;
     font-family: Alegreya;
     font-size: 16px;
     font-weight: bold;
